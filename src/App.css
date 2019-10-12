@@ -1,22 +1,35 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(33, 51, 70);
+  color: #dfdfdf;
 }
-
-.App-logo {
-  height: 40vmin;
+.card {
+  background-color: rgb(5, 23, 37);
 }
+.card-body .bold {
+  padding-top: 5px;
+  font-weight: bold;
+}
+.card-body p {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+a{
   color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+a:hover{
+  color: white;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(255, 72, 0);
+  text-decoration: none;
+  border-color: rgb(255, 72, 0);
+}
+.avail-container{
+  margin-left: 25%;
+}
+.avail-container h3{
+  margin-top: 5px;
 }
